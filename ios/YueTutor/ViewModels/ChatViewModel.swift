@@ -186,8 +186,9 @@ final class ChatViewModel: ObservableObject {
     }
 
     /// 流式跟随滚动状态：View 据此决定是否把生长中的气泡底部滚入视野
-    var streamFollowNonce = 0
-    var streamFollowID: UUID?
+    /// 注意必须 @Published，否则 View 的 onChange 收不到（2026-10-11 实锤教训）
+    @Published var streamFollowNonce = 0
+    @Published var streamFollowID: UUID?
 
     /// 把家教回复送达：替换 pending 气泡、更新滚动锚点、按设置朗读。
     private func deliver(_ lesson: Lesson, pendingID: UUID, topicId: String?, settings: AppSettings) {

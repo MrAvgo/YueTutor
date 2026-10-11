@@ -217,6 +217,10 @@ struct ChatView: View {
                 // 送达后由"顶部定位"接管，流式跟随到此结束
                 followStream = false
                 guard let id = viewModel.lastTutorMessageID else { return }
+                // 双保险：先立即定位一次（布局已就绪时直接命中），
+                // 0.25s 后再定位一次（等 LazyVStack 量好高度，纠正首定位的偏差）。
+                // 两次目标一致，不会打架。
+                proxy.scrollTo(id, anchor: .top)
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
                     proxy.scrollTo(id, anchor: .top)
                 }
