@@ -144,12 +144,15 @@ final class ChatViewModel: ObservableObject {
         let pendingID = pending.id
 
         do {
-            let lesson = try await service.sendChat(
+            // 流式：先出首字（2-3 秒），边收边刷新 pending 气泡
+            let lesson = try await service.sendChatStream(
                 profile: profileStore.profile,
                 history: history,
                 userText: userText,
                 useWebSearch: false
-            )
+            ) { [weak self] partial in
+                self?.refreshPending(pendingID: pendingID, lesson: partial)
+            }
             deliver(lesson, pendingID: pendingID, topicId: service.currentTopicId, settings: settings)
         } catch {
             // 代理后端不可用（断网/未配置/密钥缺失/模型报错）时静默回退本地，
@@ -172,9 +175,15 @@ final class ChatViewModel: ObservableObject {
         }
     }
 
-    /// 把家教回复送达：替换 pending 气泡、更新滚动锚点、按设置朗读。
-    private func deliver(_ lesson: Lesson, pendingID: UUID, topicId: String?, settings: AppSettings) {
+    /// 流式刷新 pending 气泡：只换内容，不触发滚动锚点（避免流式中途乱跳）
+    private func refreshPending(pendingID: UUID, lesson: Lesson) {
         if let index = messages.firstIndex(where: { $0.id == pendingID }) {
+            messages[index] = .tutor(lesson)
+        }
+    }
+
+    /// 把家教回复送达：替换 pending 气泡、更新滚动锚点、按设置朗读。
+    private func deliver(_ lesson: Lesson, pendingID: UUID, topicId: String?, settings: AppSettings) {        if let index = messages.firstIndex(where: { $0.id == pendingID }) {
             let delivered = ChatMessage.tutor(lesson)
             messages[index] = delivered
             // 触发"送达到位"滚动：定位到这条新消息的顶部

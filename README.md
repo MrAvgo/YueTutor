@@ -1,10 +1,4 @@
 # 粤语陪练 YueTutor
-## 固定取包地址（永久不变）
-
-- 最新未签名 IPA：https://raw.githubusercontent.com/mravgo/YueTutor/main/dist/YueTutor-latest.ipa
-- 版本：v1.2（AI 陪练云端接入版），未签名，需用爱思助手 / Sideloadly / AltStore 自行签名安装，iOS 17+。
-
-
 
 「粤语陪练」是一款 iOS App，帮你开口说粤语、跟家教练口语。
 
