@@ -13,6 +13,10 @@ struct ChatView: View {
     @State private var showJumpToBottom = false
     /// 点悬浮按钮时 +1，消息列表内响应并瞬间滚到底部
     @State private var jumpToBottomNonce = 0
+    /// 流式跟随：家教回复生长中是否自动把气泡底部滚入视野。
+    /// 新一轮对话开始时为 true；用户手动拖动后为 false（不再打扰看历史）；
+    /// 点"跳到底部"后恢复 true；送达后由"顶部定位"接管，置 false。
+    @State private var followStream = true
     /// 外部课程重载后 +1，触发 topics 重算（实际从 LocalTutorService.curriculum 实时读取）
     @State private var curriculumReloadTick = 0
 
@@ -181,23 +185,37 @@ struct ChatView: View {
             .animation(.easeInOut(duration: 0.2), value: showJumpToBottom)
             .simultaneousGesture(
                 DragGesture(minimumDistance: keyboardDismissDragThreshold)
-                    .onChanged { _ in dismissKeyboard() }
+                    .onChanged { _ in
+                        dismissKeyboard()
+                        // 用户手动拖动：接管滚动，流式不再自动跟随
+                        followStream = false
+                    }
             )
             // 学习者发消息（count 增加）：瞬间滚到底部，即时反馈。
             // 注意不用 withAnimation：动画没跑完时若家教回复送达，
             // 两处滚动会打架把视图停在半中间；全用瞬间定位，位置是确定的。
             .onChange(of: viewModel.messages.count) { _, _ in
+                followStream = true
                 proxy.scrollTo("bottomAnchor", anchor: .bottom)
             }
             // 悬浮按钮点按：瞬间跳到底部（无动画，与消息定位逻辑一致，避免打架）
             .onChange(of: jumpToBottomNonce) { _, _ in
+                followStream = true
                 proxy.scrollTo("bottomAnchor", anchor: .bottom)
+            }
+            // 流式生长：气泡变高时把底部滚入视野，新字始终可见。
+            // 用户手动拖动后 followStream=false，不打扰看历史；瞬间定位，与现有逻辑一致。
+            .onChange(of: viewModel.streamFollowNonce) { _, _ in
+                guard followStream, let id = viewModel.streamFollowID else { return }
+                proxy.scrollTo(id, anchor: .bottom)
             }
             // 家教回复送达（pending 原地替换为正式内容）：新消息从顶部开始显示。
             // 两点教训：① 必须等 LazyVStack 量好新内容高度后再定位，否则停半中间——
             // async 一轮不够（16 张主题卡片量高度需要时间），等 0.25s；
             // ② 定位不要做动画：内容高度变化时动画滚动会插值漂移，直接瞬间定位最准。
             .onChange(of: viewModel.tutorDeliveryNonce) { _, _ in
+                // 送达后由"顶部定位"接管，流式跟随到此结束
+                followStream = false
                 guard let id = viewModel.lastTutorMessageID else { return }
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
                     proxy.scrollTo(id, anchor: .top)
