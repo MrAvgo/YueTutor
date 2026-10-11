@@ -177,9 +177,14 @@ final class ChatViewModel: ObservableObject {
 
     /// 流式刷新 pending 气泡：只换内容，不触发滚动锚点（避免流式中途乱跳）
     /// 同时 bump streamFollowNonce，让 View 把气泡底部跟入视野（新字始终可见）
+    /// 关键：必须保留原 pendingID！ChatMessage.tutor() 会生成新 UUID，
+    /// 若换了 id，后续 deliver 按 pendingID 就找不到了（2026-10-11 实锤教训）。
     private func refreshPending(pendingID: UUID, lesson: Lesson) {
         if let index = messages.firstIndex(where: { $0.id == pendingID }) {
-            messages[index] = .tutor(lesson)
+            messages[index] = ChatMessage(
+                id: pendingID, role: .tutor, text: nil,
+                lesson: lesson, isPending: false, errorText: nil
+            )
             streamFollowID = pendingID
             streamFollowNonce += 1
         }
@@ -195,7 +200,11 @@ final class ChatViewModel: ObservableObject {
         // 流式跟随到此结束，后续由"送达到位"滚动（消息顶部定位）接管
         streamFollowID = nil
         if let index = messages.firstIndex(where: { $0.id == pendingID }) {
-            let delivered = ChatMessage.tutor(lesson)
+            // 保留 pendingID（同 refreshPending 的教训），避免行身份抖动
+            let delivered = ChatMessage(
+                id: pendingID, role: .tutor, text: nil,
+                lesson: lesson, isPending: false, errorText: nil
+            )
             messages[index] = delivered
             // 触发"送达到位"滚动：定位到这条新消息的顶部
             lastTutorMessageID = delivered.id
