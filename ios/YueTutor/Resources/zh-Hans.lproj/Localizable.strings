@@ -72,7 +72,8 @@
 "settings.proxy_section" = "AI 陪练";
 "settings.proxy_url" = "代理地址";
 "settings.proxy_secret" = "密钥";
-"settings.proxy_note" = "AI 陪练需要 Anthropic API key，以后启用";
+"settings.proxy_note" = "填写云端陪练地址和密钥后，聊天由 AI 实时回答；无网络或服务不可用时自动用本地模式。";
+"settings.mode_proxy" = "AI 陪练（需联网）";
 "settings.interests_section" = "兴趣";
 "settings.haptics" = "按钮震动反馈";
 "settings.voice_section" = "语音";

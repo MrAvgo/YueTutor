@@ -1,7 +1,8 @@
 import SwiftUI
 
-/// 设置页：语速 / 自动朗读 / 版本号。
-/// v1 只有本地课程：不显示家教模式切换和 AI 代理配置；个人信息 v1 本地链路不消费，也不在此显示。
+/// 设置页：家教模式 / AI 陪练 / 语速 / 自动朗读 / 版本号。
+/// AI 陪练：在下方填入云端陪练地址和密钥后，打开"AI 陪练"开关即启用；
+/// 无网络或服务不可用时聊天自动回退本地模式，不会出现空白或报错。
 struct SettingsView: View {
     @EnvironmentObject private var settings: AppSettings
     @EnvironmentObject private var profileStore: ProfileStore
@@ -96,6 +97,23 @@ struct SettingsView: View {
                     }
                     Toggle(L10n.t("settings.auto_speak"), isOn: $settings.autoSpeak)
                         .tint(Theme.accent)
+                }
+
+                // AI 陪练：模式开关 + 云端代理地址 + 密钥
+                Section(header: Text(L10n.t("settings.proxy_section"))) {
+                    Toggle(L10n.t("settings.mode_proxy"), isOn: Binding(
+                        get: { settings.tutorMode == .proxy },
+                        set: { settings.tutorMode = $0 ? .proxy : .local }
+                    ))
+                    .tint(Theme.accent)
+                    TextField(L10n.t("settings.proxy_url"), text: $settings.proxyBaseURL)
+                        .keyboardType(.URL)
+                        .autocapitalization(.none)
+                        .disableAutocorrection(true)
+                    SecureField(L10n.t("settings.proxy_secret"), text: $settings.appSecret)
+                    Text(L10n.t("settings.proxy_note"))
+                        .font(.footnote)
+                        .foregroundColor(.secondary)
                 }
 
                 // 按钮震动反馈：开关（打开时震一下确认）

@@ -3,7 +3,7 @@ import SwiftUI
 /// 聊天状态管理：消息流 / 发送 / 朗读 / service 选择。
 ///
 /// service 选择：`settings.tutorMode == .local` 用 `LocalTutorService()`，
-/// 否则用 `ProxyTutorService(settings:)`（v1 只走本地，以后 proxy 可用时直接生效）。
+/// 否则用 `ProxyTutorService(settings:)`；代理失败时静默回退本地，保证不断聊。
 @MainActor
 final class ChatViewModel: ObservableObject {
     /// 全部聊天消息（含思考中的 pending）。
@@ -26,6 +26,8 @@ final class ChatViewModel: ObservableObject {
     /// 失败跳过等会话状态，必须复用同一实例；每次新建会导致状态丢失（永远"第 1 遍"）。
     private var cachedService: (any TutorService)?
     private var cachedServiceMode: TutorMode?
+    /// 代理失败时的回退实例：单独长驻复用，保证 LocalTutorService 的会话状态连续。
+    private let fallbackLocalService = LocalTutorService()
 
     // MARK: - 配置
 
@@ -148,23 +150,49 @@ final class ChatViewModel: ObservableObject {
                 userText: userText,
                 useWebSearch: false
             )
-            if let index = messages.firstIndex(where: { $0.id == pendingID }) {
-                let delivered = ChatMessage.tutor(lesson)
-                messages[index] = delivered
-                // 触发"送达到位"滚动：定位到这条新消息的顶部
-                lastTutorMessageID = delivered.id
-                tutorDeliveryNonce += 1
-            }
-            currentTopicId = service.currentTopicId
-            if settings.autoSpeak {
-                synthesizer?.speak(lesson.replyCantonese, rate: settings.speechRate)
-            }
+            deliver(lesson, pendingID: pendingID, topicId: service.currentTopicId, settings: settings)
         } catch {
-            if let index = messages.firstIndex(where: { $0.id == pendingID }) {
-                messages[index].errorText = L10n.t("error.chat_failed")
-                lastTutorMessageID = messages[index].id
-                tutorDeliveryNonce += 1
+            // 代理后端不可用（断网/未配置/密钥缺失/模型报错）时静默回退本地，
+            // 保证不出现空白或报错界面；本地也失败才显示错误。
+            if service is ProxyTutorService {
+                do {
+                    let lesson = try await fallbackLocalService.sendChat(
+                        profile: profileStore.profile,
+                        history: history,
+                        userText: userText,
+                        useWebSearch: false
+                    )
+                    deliver(lesson, pendingID: pendingID, topicId: fallbackLocalService.currentTopicId, settings: settings)
+                } catch {
+                    showError(pendingID: pendingID)
+                }
+            } else {
+                showError(pendingID: pendingID)
             }
+        }
+    }
+
+    /// 把家教回复送达：替换 pending 气泡、更新滚动锚点、按设置朗读。
+    private func deliver(_ lesson: Lesson, pendingID: UUID, topicId: String?, settings: AppSettings) {
+        if let index = messages.firstIndex(where: { $0.id == pendingID }) {
+            let delivered = ChatMessage.tutor(lesson)
+            messages[index] = delivered
+            // 触发"送达到位"滚动：定位到这条新消息的顶部
+            lastTutorMessageID = delivered.id
+            tutorDeliveryNonce += 1
+        }
+        currentTopicId = topicId
+        if settings.autoSpeak {
+            synthesizer?.speak(lesson.replyCantonese, rate: settings.speechRate)
+        }
+    }
+
+    /// 发送失败时在 pending 气泡上标错误（可点重试）。
+    private func showError(pendingID: UUID) {
+        if let index = messages.firstIndex(where: { $0.id == pendingID }) {
+            messages[index].errorText = L10n.t("error.chat_failed")
+            lastTutorMessageID = messages[index].id
+            tutorDeliveryNonce += 1
         }
     }
 }

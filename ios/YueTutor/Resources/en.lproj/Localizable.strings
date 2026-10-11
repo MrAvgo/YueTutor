@@ -72,7 +72,8 @@
 "settings.proxy_section" = "AI tutor";
 "settings.proxy_url" = "Proxy URL";
 "settings.proxy_secret" = "Secret";
-"settings.proxy_note" = "AI tutoring needs an Anthropic API key — coming later";
+"settings.proxy_note" = "After filling in the cloud tutor URL and secret, chats are answered live by AI; falls back to offline mode when the network or service is unavailable.";
+"settings.mode_proxy" = "AI tutor (online)";
 "settings.interests_section" = "Interests";
 "settings.haptics" = "Button haptics";
 "settings.voice_section" = "Voice";
