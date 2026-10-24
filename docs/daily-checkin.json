@@ -1,1 +1,10 @@
-{"date":"2026-10-24","mandarin":"家里的日常","sentence":{"cantonese":"阿媽，我返咗嚟啦！今日煮咩飯呀？","jyutping":"aa3 maa1, ngo5 faan1 zo2 lai4 laa1! gam1 jat6 zyu2 me1 faan6 aa3?","mandarin":"妈妈，我回来啦！今天做什么饭呀？"},"theme":"家庭·日常","tip":"「飯」faan6 里的 aa 是长元音 [a:]，嘴巴要张大、拖长，结尾的 -n 鼻音轻轻收口：客家话的「饭 fan」是短促的 a，读成粤语的 faan6 要先发「fa~」再滑向「an」。对比练三遍：fan（短）→ faan（长）→ faan6（长 + 低平调）。","weekday":"周六","words":[{"cantonese":"阿媽","hakka":"a-ma（阿妈，口语）","jyutping":"aa3 maa1","mandarin":"妈妈"},{"cantonese":"仔女","hakka":"zai-ng（崽女，孩子们）","jyutping":"zai2 neoi2","mandarin":"儿女、孩子们"},{"cantonese":"煮飯","hakka":"zu-fan","jyutping":"zyu2 faan6","mandarin":"做饭"},{"cantonese":"掃地","hakka":"sau-ti","jyutping":"sou3 dei6","mandarin":"扫地"},{"cantonese":"休息","hakka":"hiu-sit","jyutping":"jau1 sik1","mandarin":"休息"}]}
+{"date": "2026-10-25", "weekday": "周日", "theme": "复习+趣味",
+ "words": [
+  {"cantonese": "叉燒包", "jyutping": "caa1 siu1 baau1", "hakka": "ca xiu bau", "mandarin": "叉烧包"},
+  {"cantonese": "的士", "jyutping": "dik1 si2", "hakka": "dit su", "mandarin": "出租车"},
+  {"cantonese": "散紙", "jyutping": "saan3 zi2", "hakka": "san zi", "mandarin": "零钱"},
+  {"cantonese": "洗衫", "jyutping": "sai2 saam1", "hakka": "se sam", "mandarin": "洗衣服"},
+  {"cantonese": "沖涼", "jyutping": "cung1 loeng4", "hakka": "cung liong", "mandarin": "洗澡"}
+ ],
+ "sentence": {"cantonese": "今個星期學咗叉燒包、的士、散紙、洗衫、沖涼，全部都記得晒！", "jyutping": "gam1 go3 sing1 kei4 hok6 zo2 caa1 siu1 baau1, dik1 si2, saan3 zi2, sai2 saam1, cung1 loeng4, cyun4 bou6 dou1 gei3 dak1 saai3!", "mandarin": "这周学了叉烧包、出租车、零钱、洗衣服、洗澡，全都记住了！"},
+ "tip": "复习重点：第二声（升调）如的士 si2、洗衫 sai2，客家话母语者容易读成平调，念时尾音往上挑，像问“是吗？”的上扬。"}
