@@ -1,10 +1,10 @@
-{"date": "2026-10-25", "weekday": "周日", "theme": "复习+趣味",
+{"date": "2026-10-26", "weekday": "周一", "theme": "问候与礼貌",
  "words": [
-  {"cantonese": "叉燒包", "jyutping": "caa1 siu1 baau1", "hakka": "ca xiu bau", "mandarin": "叉烧包"},
-  {"cantonese": "的士", "jyutping": "dik1 si2", "hakka": "dit su", "mandarin": "出租车"},
-  {"cantonese": "散紙", "jyutping": "saan3 zi2", "hakka": "san zi", "mandarin": "零钱"},
-  {"cantonese": "洗衫", "jyutping": "sai2 saam1", "hakka": "se sam", "mandarin": "洗衣服"},
-  {"cantonese": "沖涼", "jyutping": "cung1 loeng4", "hakka": "cung liong", "mandarin": "洗澡"}
+  {"cantonese": "唔該晒", "jyutping": "m4 goi1 saai3", "hakka": "m goi sai", "mandarin": "非常感谢（麻烦你了）"},
+  {"cantonese": "辛苦晒", "jyutping": "san1 fu2 saai3", "hakka": "sin ku sai", "mandarin": "辛苦了"},
+  {"cantonese": "唔緊要", "jyutping": "m4 gan2 jiu3", "hakka": "m gin yau", "mandarin": "没关系"},
+  {"cantonese": "請坐", "jyutping": "cing2 zo6", "hakka": "qiang co", "mandarin": "请坐"},
+  {"cantonese": "晚安", "jyutping": "maan5 on1", "hakka": "van on", "mandarin": "晚安"}
  ],
- "sentence": {"cantonese": "今個星期學咗叉燒包、的士、散紙、洗衫、沖涼，全部都記得晒！", "jyutping": "gam1 go3 sing1 kei4 hok6 zo2 caa1 siu1 baau1, dik1 si2, saan3 zi2, sai2 saam1, cung1 loeng4, cyun4 bou6 dou1 gei3 dak1 saai3!", "mandarin": "这周学了叉烧包、出租车、零钱、洗衣服、洗澡，全都记住了！"},
- "tip": "复习重点：第二声（升调）如的士 si2、洗衫 sai2，客家话母语者容易读成平调，念时尾音往上挑，像问“是吗？”的上扬。"}
+ "sentence": {"cantonese": "唔該晒你，今日辛苦晒你幫手！", "jyutping": "m4 goi1 saai3 nei5, gam1 jat6 san1 fu2 saai3 nei5 bong1 sau2!", "mandarin": "非常感谢你，今天辛苦你帮忙了！"},
+ "tip": "「晒 saai3」是粤语很常用的语气词，表示“……极了／都”，客家话里没有这个用法。注意两点：aa 是长元音，要拉长读成 saai、别读成短促的 sai；第 3 声是中平调，音高保持平稳，别滑成上扬的第 2 声（saai2 就变了味）。"}
