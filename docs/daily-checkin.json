@@ -1,10 +1,1 @@
-{"date": "2026-10-26", "weekday": "周一", "theme": "问候与礼貌",
- "words": [
-  {"cantonese": "唔該晒", "jyutping": "m4 goi1 saai3", "hakka": "m goi sai", "mandarin": "非常感谢（麻烦你了）"},
-  {"cantonese": "辛苦晒", "jyutping": "san1 fu2 saai3", "hakka": "sin ku sai", "mandarin": "辛苦了"},
-  {"cantonese": "唔緊要", "jyutping": "m4 gan2 jiu3", "hakka": "m gin yau", "mandarin": "没关系"},
-  {"cantonese": "請坐", "jyutping": "cing2 zo6", "hakka": "qiang co", "mandarin": "请坐"},
-  {"cantonese": "晚安", "jyutping": "maan5 on1", "hakka": "van on", "mandarin": "晚安"}
- ],
- "sentence": {"cantonese": "唔該晒你，今日辛苦晒你幫手！", "jyutping": "m4 goi1 saai3 nei5, gam1 jat6 san1 fu2 saai3 nei5 bong1 sau2!", "mandarin": "非常感谢你，今天辛苦你帮忙了！"},
- "tip": "「晒 saai3」是粤语很常用的语气词，表示“……极了／都”，客家话里没有这个用法。注意两点：aa 是长元音，要拉长读成 saai、别读成短促的 sai；第 3 声是中平调，音高保持平稳，别滑成上扬的第 2 声（saai2 就变了味）。"}
+{"date":"2026-10-27","sentence":{"cantonese":"晏晝三點鐘，我哋去銀行攞一千蚊。","jyutping":"aan3 zau3 saam1 dim2 zung1, ngo5 dei6 heoi3 ngan4 hong4 lo2 jat1 cin1 man4.","mandarin":"下午三点，我们去银行取一千块钱。"},"theme":"数字·时间·钱","tip":"晏 aan3、萬 maan6 的 aa 是长元音，要拖长读；客家话习惯读短 a，容易听成「安」「问」。千 cin1 是第一声高平调，别读成升调。","weekday":"周二","words":[{"cantonese":"朝早","hakka":"zeu zau","jyutping":"ziu1 zou2","mandarin":"早上"},{"cantonese":"晏晝","hakka":"an zeu","jyutping":"aan3 zau3","mandarin":"下午"},{"cantonese":"夜晚","hakka":"ya van","jyutping":"je6 maan5","mandarin":"晚上"},{"cantonese":"千","hakka":"qian","jyutping":"cin1","mandarin":"一千"},{"cantonese":"萬","hakka":"van","jyutping":"maan6","mandarin":"一万"}]}
