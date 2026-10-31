@@ -1,1 +1,10 @@
-{"date":"2026-10-30","sentence":{"cantonese":"老闆，呢件衫有冇折扣呀？再平啲得唔得呀？","jyutping":"lou5 baan2, ni1 gin6 saam1 jau5 mou5 zit3 kau3 aa3? zoi3 peng4 di1 dak1 m4 dak1 aa3?","mandarin":"老板，这件衣服有折扣吗？再便宜点行不行？"},"theme":"购物·砍价","tip":"特 dak6、折 zit3 尾音的 -k 是入声，要短促收住、不能拖长，就像客家话“食”收尾的感觉一样；这是客家话母语者的优势，直接借用入声感觉来读。","weekday":"周五","words":[{"cantonese":"特價","hakka":"tet ga","jyutping":"dak6 gaa3","mandarin":"特价"},{"cantonese":"折扣","hakka":"zat keu","jyutping":"zit3 kau3","mandarin":"折扣"},{"cantonese":"收據","hakka":"siu gi","jyutping":"sau1 geoi3","mandarin":"收据"},{"cantonese":"退貨","hakka":"tui fo","jyutping":"teoi3 fo3","mandarin":"退货"},{"cantonese":"幫襯","hakka":"bong cen","jyutping":"bong1 can3","mandarin":"光顾、照顾生意"}]}
+{"date": "2026-10-31", "weekday": "周六", "theme": "家庭·日常",
+ "words": [
+  {"cantonese": "細佬", "jyutping": "sai3 lou2", "hakka": "細 se、佬 lau（近似）", "mandarin": "弟弟"},
+  {"cantonese": "老豆", "jyutping": "lou5 dau6", "hakka": "老 lau、豆 teu（近似）", "mandarin": "爸爸（口语）"},
+  {"cantonese": "姊妹", "jyutping": "zi2 mui6", "hakka": "姊 ji、妹 moi（近似）", "mandarin": "姐妹"},
+  {"cantonese": "拖地", "jyutping": "to1 dei6", "hakka": "拖 to、地 ti（近似）", "mandarin": "拖地"},
+  {"cantonese": "開飯", "jyutping": "hoi1 faan6", "hakka": "開 khoi、飯 fan（近似）", "mandarin": "开饭"}
+ ],
+ "sentence": {"cantonese": "老豆，今晚開飯未呀？我幫手拖地先。", "jyutping": "lou5 dau6, gam1 maan5 hoi1 faan6 mei6 aa3? ngo5 bong1 sau2 to1 dei6 sin1.", "mandarin": "爸爸，今晚开饭了吗？我先帮忙拖地。"},
+ "tip": "細佬 sai3 lou2 的佬 lou2、姊妹 zi2 mui6 的姊 zi2 都是第二聲升調：要像問話一樣「挑上去」，客家話母語者最容易讀成平調；開 hoi1 則是第一聲高平調，穩穩地拉高、不要往上挑，兩種調值別混。"}
