@@ -1,10 +1,1 @@
-{"date": "2026-10-31", "weekday": "周六", "theme": "家庭·日常",
- "words": [
-  {"cantonese": "細佬", "jyutping": "sai3 lou2", "hakka": "細 se、佬 lau（近似）", "mandarin": "弟弟"},
-  {"cantonese": "老豆", "jyutping": "lou5 dau6", "hakka": "老 lau、豆 teu（近似）", "mandarin": "爸爸（口语）"},
-  {"cantonese": "姊妹", "jyutping": "zi2 mui6", "hakka": "姊 ji、妹 moi（近似）", "mandarin": "姐妹"},
-  {"cantonese": "拖地", "jyutping": "to1 dei6", "hakka": "拖 to、地 ti（近似）", "mandarin": "拖地"},
-  {"cantonese": "開飯", "jyutping": "hoi1 faan6", "hakka": "開 khoi、飯 fan（近似）", "mandarin": "开饭"}
- ],
- "sentence": {"cantonese": "老豆，今晚開飯未呀？我幫手拖地先。", "jyutping": "lou5 dau6, gam1 maan5 hoi1 faan6 mei6 aa3? ngo5 bong1 sau2 to1 dei6 sin1.", "mandarin": "爸爸，今晚开饭了吗？我先帮忙拖地。"},
- "tip": "細佬 sai3 lou2 的佬 lou2、姊妹 zi2 mui6 的姊 zi2 都是第二聲升調：要像問話一樣「挑上去」，客家話母語者最容易讀成平調；開 hoi1 則是第一聲高平調，穩穩地拉高、不要往上挑，兩種調值別混。"}
+{"date":"2026-11-01","sentence":{"cantonese":"請問，邊度有好味嘅嘢食呀？","jyutping":"cing2 man6, bin1 dou6 jau5 hou2 mei6 ge3 je5 sik6 aa3?","mandarin":"请问，哪里有好吃的东西吃啊？"},"theme":"复习+趣味","tip":"複習調值：請 cing2、好 hou2 都是第二聲升調，要像問話一樣「挑上去」，客家話母語者最容易讀成平調；埋 maai4、單 daan1 都是長 aa 元音，嘴巴張大、音拉長，別讀成客家話的短 a；單 daan1 是第一聲高平調，讀成第六聲就變「蛋 daan6」，買單變點雞蛋。","weekday":"周日","words":[{"cantonese":"請問","hakka":"請 qing、問 mun（近似）","jyutping":"cing2 man6","mandarin":"请问"},{"cantonese":"點鐘","hakka":"點 tiam、鐘 zung（近似）","jyutping":"dim2 zung1","mandarin":"几点钟"},{"cantonese":"好味","hakka":"好 ho、味 mi（近似）","jyutping":"hou2 mei6","mandarin":"好吃、味道好"},{"cantonese":"邊度","hakka":"邊 pen、度 tu（近似）","jyutping":"bin1 dou6","mandarin":"哪里"},{"cantonese":"埋單","hakka":"埋 mai、單 tan（近似）","jyutping":"maai4 daan1","mandarin":"结账、买单"}]}
