@@ -1,1 +1,10 @@
-{"date":"2026-11-04","sentence":{"cantonese":"唔該，我要一碗白粥同埋一碟炒飯。","jyutping":"m4 goi1, ngo5 jiu3 jat1 wun2 baak6 zuk1 tung4 maai4 jat1 dip6 caau2 faan6.","mandarin":"您好，我要一碗白粥和一碟炒饭。"},"theme":"食物·饮品","tip":"客家话的 a 多半读得短，粤语的 aa 要拉长：炒 caau2、扒 paa2 的 aa 要拖长音再收尾；白 baak6、翼 jik6 是入声，要短促收住，不要拖长。","weekday":"周三","words":[{"cantonese":"炒飯","hakka":"cau fan","jyutping":"caau2 faan6","mandarin":"炒饭"},{"cantonese":"白粥","hakka":"pak chuk","jyutping":"baak6 zuk1","mandarin":"白粥"},{"cantonese":"雞翼","hakka":"gie yit","jyutping":"gai1 jik6","mandarin":"鸡翅"},{"cantonese":"豬扒","hakka":"chu pha","jyutping":"zyu1 paa2","mandarin":"猪排"},{"cantonese":"涼茶","hakka":"liong cha","jyutping":"loeng4 caa4","mandarin":"凉茶"}]}
+{"date": "2026-11-05", "weekday": "周四", "theme": "出行·方向",
+ "words": [
+  {"cantonese": "轉左", "jyutping": "zyun3 zo2", "hakka": "zon zo", "mandarin": "左转"},
+  {"cantonese": "轉右", "jyutping": "zyun3 jau6", "hakka": "zon yiu", "mandarin": "右转"},
+  {"cantonese": "前面", "jyutping": "cin4 min6", "hakka": "qian mien", "mandarin": "前面"},
+  {"cantonese": "行路", "jyutping": "haang4 lou6", "hakka": "hang lu", "mandarin": "走路、步行"},
+  {"cantonese": "搭船", "jyutping": "daap3 syun4", "hakka": "dap son", "mandarin": "坐船、乘船"}
+ ],
+ "sentence": {"cantonese": "唔該，碼頭喺邊度呀？前面轉左就到。", "jyutping": "m4 goi1, maa5 tau4 hai2 bin1 dou6 aa3? cin4 min6 zyun3 zo2 zau6 dou3.", "mandarin": "请问，码头在哪儿？前面左转就到了。"},
+ "tip": "「轉」zyun3 的 yun 是撮口音：先把嘴唇收圆向前突出再发音；直接照客家话开口音读，会变成「尊」，路人可能听不懂。"}
