@@ -1,10 +1,1 @@
-{"date": "2026-11-05", "weekday": "周四", "theme": "出行·方向",
- "words": [
-  {"cantonese": "轉左", "jyutping": "zyun2 zo2", "hakka": "zon zo", "mandarin": "左转"},
-  {"cantonese": "轉右", "jyutping": "zyun2 jau6", "hakka": "zon yiu", "mandarin": "右转"},
-  {"cantonese": "前面", "jyutping": "cin4 min6", "hakka": "qian mien", "mandarin": "前面"},
-  {"cantonese": "行路", "jyutping": "haang4 lou6", "hakka": "hang lu", "mandarin": "走路、步行"},
-  {"cantonese": "搭船", "jyutping": "daap3 syun4", "hakka": "dap son", "mandarin": "坐船、乘船"}
- ],
- "sentence": {"cantonese": "唔該，碼頭喺邊度呀？前面轉左就到。", "jyutping": "m4 goi1, maa5 tau4 hai2 bin1 dou6 aa3? cin4 min6 zyun2 zo2 zau6 dou3.", "mandarin": "请问，码头在哪儿？前面左转就到了。"},
- "tip": "「轉」zyun2 的 yun 是撮口音：先把嘴唇收圆向前突出再发音；直接照客家话开口音读，会变成「尊」，路人可能听不懂。"}
+{"date":"2026-11-06","sentence":{"cantonese":"老闆，呢件衫可唔可以平啲呀？","jyutping":"lou5 baan2, ni1 gin6 saam1 ho2 m4 ho2 ji5 peng4 di1 aa3?","mandarin":"老板，这件衣服能不能便宜点？"},"theme":"购物·砍价","tip":"「平」peng4 是 -ng 鼻音韵尾，客家话「平」近似 pin（-n 尾）；粤语 -m/-n/-ng 三个鼻音韵尾要分清，讲价说「平啲」时别把 peng4 读成 pin4。","weekday":"周五","words":[{"cantonese":"講價","hakka":"講 gong、價 ga","jyutping":"gong2 gaa3","mandarin":"砍价"},{"cantonese":"揀嘢","hakka":"揀 gan、嘢 e","jyutping":"gaam2 je5","mandarin":"挑东西"},{"cantonese":"啱","hakka":"啱 ngam","jyutping":"ngaam1","mandarin":"合适"},{"cantonese":"試身","hakka":"試 si、身 sin","jyutping":"si3 san1","mandarin":"试穿"},{"cantonese":"現金","hakka":"現 hien、金 gim","jyutping":"jin6 gam1","mandarin":"现金"}]}
