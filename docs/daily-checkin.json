@@ -1,1 +1,8 @@
-{"date": "2026-11-09", "weekday": "周一", "theme": "问候与礼貌", "words": [{"cantonese": "再見", "jyutping": "zoi3 gin3", "hakka": "再見 zai kien", "mandarin": "再见"}, {"cantonese": "拜拜", "jyutping": "baai1 baai3", "hakka": "拜拜 bai bai", "mandarin": "拜拜（再见）"}, {"cantonese": "早唞", "jyutping": "zou2 tau2", "hakka": "早唞 zau heu", "mandarin": "早点休息；晚安"}, {"cantonese": "辛苦你", "jyutping": "san1 fu2 nei5", "hakka": "辛苦你 sin fu ngi", "mandarin": "辛苦你了"}, {"cantonese": "借問", "jyutping": "ze3 man6", "hakka": "借問 cia mun", "mandarin": "借问一下（请问）"}], "sentence": {"cantonese": "今日辛苦你啦，早啲返去早唞，拜拜！", "jyutping": "gam1 jat6 san1 fu2 nei5 laa1, zou2 di1 faan1 heoi3 zou2 tau2, baai1 baai3!", "mandarin": "今天辛苦你了，早点回去休息，拜拜！"}, "tip": "「早 zou2」「苦 fu2」都是第二声（升调），要由低往上挑，客家话母语者最容易读成平调，读的时候想像问「呀？」的上扬；「拜 baai1」「再 zoi3」的 -aai / -oi 双元音要拉长滑过去，别读得短促。"}
+{"date": "2026-11-10", "weekday": "周二", "theme": "数字·时间·钱",
+ "words": [{"cantonese": "幾點", "jyutping": "gei2 dim2", "hakka": "giˊ diemˋ", "mandarin": "几点"},
+{"cantonese": "廿蚊", "jyutping": "jaa6 man4", "hakka": "ngiamˋ munˊ", "mandarin": "二十块"},
+{"cantonese": "一千", "jyutping": "jat1 cin1", "hakka": "yitˋ cienˊ", "mandarin": "一千"},
+{"cantonese": "晏晝", "jyutping": "ngaan3 zau3", "hakka": "anˋ ziuˋ", "mandarin": "下午"},
+{"cantonese": "星期", "jyutping": "sing1 kei4", "hakka": "senˊ kiˊ", "mandarin": "星期"}],
+ "sentence": {"cantonese": "唔該，請問而家幾點呀？", "jyutping": "m4 goi1, cing2 man6 ji4 gaa1 gei2 dim2 aa3?", "mandarin": "请问，现在几点了？"},
+ "tip": "「廿」讀 jaa6，係第六聲低降調，留意粵語讀長元音 aa、無鼻音尾；客家話讀 ngiamˋ 帶 -m 鼻音尾，講粵語時記得收走個 -m，唔好讀成 ngiam。"}
