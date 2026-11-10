@@ -1,8 +1,1 @@
-{"date": "2026-11-10", "weekday": "周二", "theme": "数字·时间·钱",
- "words": [{"cantonese": "幾點", "jyutping": "gei2 dim2", "hakka": "giˊ diemˋ", "mandarin": "几点"},
-{"cantonese": "廿蚊", "jyutping": "jaa6 man4", "hakka": "ngiamˋ munˊ", "mandarin": "二十块"},
-{"cantonese": "一千", "jyutping": "jat1 cin1", "hakka": "yitˋ cienˊ", "mandarin": "一千"},
-{"cantonese": "晏晝", "jyutping": "ngaan3 zau3", "hakka": "anˋ ziuˋ", "mandarin": "下午"},
-{"cantonese": "星期", "jyutping": "sing1 kei4", "hakka": "senˊ kiˊ", "mandarin": "星期"}],
- "sentence": {"cantonese": "唔該，請問而家幾點呀？", "jyutping": "m4 goi1, cing2 man6 ji4 gaa1 gei2 dim2 aa3?", "mandarin": "请问，现在几点了？"},
- "tip": "「廿」讀 jaa6，係第六聲低降調，留意粵語讀長元音 aa、無鼻音尾；客家話讀 ngiamˋ 帶 -m 鼻音尾，講粵語時記得收走個 -m，唔好讀成 ngiam。"}
+{"date":"2026-11-11","sentence":{"cantonese":"唔該，我要一碟腸粉同一杯凍檸茶。","jyutping":"m4 goi1, ngo5 jiu3 jat1 dip6 coeng4 fan2 tung4 jat1 bui1 dung3 ning4 caa4.","mandarin":"麻烦，我要一碟肠粉和一杯冻柠茶。"},"theme":"食物·饮品","tip":"腩 naam5、茶 caa4 的 aa 是长元音，要张大口、拉长一拍读；客家话「茶」读短 a，照着读短了就变了味——粤语里凡是 aa，一律拖长。","weekday":"周三","words":[{"cantonese":"腸粉","hakka":"chhong fun","jyutping":"coeng4 fan2","mandarin":"肠粉"},{"cantonese":"魚蛋","hakka":"ng tan","jyutping":"jyu4 daan2","mandarin":"鱼蛋"},{"cantonese":"凍檸茶","hakka":"dung nang ca","jyutping":"dung3 ning4 caa4","mandarin":"冻柠茶"},{"cantonese":"雞蛋仔","hakka":"ge tan zai","jyutping":"gai1 daan6 zai2","mandarin":"鸡蛋仔"},{"cantonese":"牛腩","hakka":"ngiu nam","jyutping":"ngau4 naam5","mandarin":"牛腩"}]}
