@@ -1,10 +1,1 @@
-{"date": "2026-11-17", "weekday": "周二", "theme": "数字·时间·钱",
- "words": [
-   {"cantonese": "而家", "jyutping": "ji4 gaa1", "hakka": "yi ga", "mandarin": "现在"},
-   {"cantonese": "一陣間", "jyutping": "jat1 zan6 gaan1", "hakka": "yit chin gan", "mandarin": "一会儿"},
-   {"cantonese": "聽朝", "jyutping": "ting1 ziu1", "hakka": "tang zeu", "mandarin": "明天早上"},
-   {"cantonese": "幾耐", "jyutping": "gei2 noi6", "hakka": "gi noi", "mandarin": "多久"},
-   {"cantonese": "找錢", "jyutping": "zaau2 cin4", "hakka": "zau cien", "mandarin": "找零"}
- ],
- "sentence": {"cantonese": "而家三點半，聽朝九點我哋去銀行換錢。", "jyutping": "ji4 gaa1 saam1 dim2 bun3, ting1 ziu1 gau2 dim2 ngo5 dei6 heoi3 ngan4 hang4 wun6 cin4.", "mandarin": "现在三点半，明天早上九点我们去银行换钱。"},
- "tip": "幾 gei2、九 gau2、點 dim2 都是第二声（升调），客家话母语者最容易读成阴平（平调）。念的时候想象声音往上挑，像问话尾音上扬；「三點半」的點 dim2 一定要挑上去，读平了就变了味。"}
+{"date":"2026-11-18","sentence":{"cantonese":"唔該，要一碟牛肉炒生菜，再加一杯橙汁。","jyutping":"m4 goi1, jiu3 jat1 dip6 ngau4 juk6 caau2 saang1 coi3, zoi3 gaa1 jat1 bui1 caang2 zap1.","mandarin":"你好，要一碟牛肉炒生菜，再加一杯橙汁。"},"theme":"食物·饮品","tip":"粤语的 aa 是长元音，要拉长读，如「炒 caau2、碟 dip6」里的 a 要拖长一点；客家话的 a 偏短，容易读成短音，多练「caa、saa、maa」这组拉长音。","weekday":"周三","words":[{"cantonese":"豆腐","hakka":"teu fu（豆 腐）","jyutping":"dau6 fu6","mandarin":"豆腐"},{"cantonese":"生菜","hakka":"sang coi（生 菜）","jyutping":"saang1 coi3","mandarin":"生菜"},{"cantonese":"牛肉","hakka":"ngiu ngiuk（牛 肉）","jyutping":"ngau4 juk6","mandarin":"牛肉"},{"cantonese":"橙汁","hakka":"cen ziip（橙 汁）","jyutping":"caang2 zap1","mandarin":"橙汁"},{"cantonese":"啤酒","hakka":"bi jiu（啤 酒）","jyutping":"be1 zau2","mandarin":"啤酒"}]}
