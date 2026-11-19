@@ -1,1 +1,8 @@
-{"date": "2026-11-19", "sentence": {"cantonese": "唔該，請問火車站喺邊度呀？行過去要幾耐呀？", "jyutping": "m4 goi1, cing2 man6 fo2 ce1 zaam6 hai2 bin1 dou6 aa3? haang4 gwo3 heoi3 jiu3 gei2 noi6 aa3?", "mandarin": "请问，火车站在哪里呀？走过去要多久呀？"}, "theme": "出行·方向", "tip": "「邊 bin1、站 zaam6」里的 aa 是长元音，要拉长读，客家话的 a 偏短，别读成短音；「的士 dik1、出口 ceot1」的 -k、-t 是入声，短促收尾别拖长——客家话也有入声，直接借用那个短促感就对了。", "weekday": "周四", "words": [{"cantonese": "的士", "hakka": "滴士", "jyutping": "dik1 si6", "mandarin": "出租车"}, {"cantonese": "火車站", "hakka": "火車站", "jyutping": "fo2 ce1 zaam6", "mandarin": "火车站"}, {"cantonese": "左邊", "hakka": "左便", "jyutping": "zo2 bin1", "mandarin": "左边"}, {"cantonese": "右邊", "hakka": "右便", "jyutping": "jau6 bin1", "mandarin": "右边"}, {"cantonese": "出口", "hakka": "出喉", "jyutping": "ceot1 hau2", "mandarin": "出口"}]}
+{"date": "2026-11-20", "weekday": "周五", "theme": "购物·砍价",
+ "words": [{"cantonese": "價錢", "jyutping": "gaa3 cin4", "hakka": "ga cien", "mandarin": "价格"},
+ {"cantonese": "減價", "jyutping": "gaam2 gaa3", "hakka": "gam ga", "mandarin": "降价、打折"},
+ {"cantonese": "抵", "jyutping": "dai2", "hakka": "dai", "mandarin": "划算、值"},
+ {"cantonese": "貨", "jyutping": "fo3", "hakka": "fo", "mandarin": "货物、商品"},
+ {"cantonese": "付款", "jyutping": "fu6 fun2", "hakka": "fu kun", "mandarin": "付钱"}],
+ "sentence": {"cantonese": "老闆，呢件衫貴咗啲喎，平啲得唔得呀？", "jyutping": "lou5 baan2, ni1 gin6 saam1 gwai3 zo2 di1 wo3, peng4 di1 dak1 m4 dak1 aa3?", "mandarin": "老板，这件衣服贵了点，便宜点行不行？"},
+ "tip": "「貴 gwai3」的 gw 是圓唇舌根音，客家話「貴」讀 guai 冇圓唇，粵語要先噘嘴圓唇再發音；「減價 gaam2 gaa3」兩個 aa 都係長元音，讀長啲，唔好讀成客家話短促嘅 a。"}
