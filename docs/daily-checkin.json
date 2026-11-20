@@ -1,8 +1,1 @@
-{"date": "2026-11-20", "weekday": "周五", "theme": "购物·砍价",
- "words": [{"cantonese": "價錢", "jyutping": "gaa3 cin4", "hakka": "ga cien", "mandarin": "价格"},
- {"cantonese": "減價", "jyutping": "gaam2 gaa3", "hakka": "gam ga", "mandarin": "降价、打折"},
- {"cantonese": "抵", "jyutping": "dai2", "hakka": "dai", "mandarin": "划算、值"},
- {"cantonese": "貨", "jyutping": "fo3", "hakka": "fo", "mandarin": "货物、商品"},
- {"cantonese": "付款", "jyutping": "fu6 fun2", "hakka": "fu kun", "mandarin": "付钱"}],
- "sentence": {"cantonese": "老闆，呢件衫貴咗啲喎，平啲得唔得呀？", "jyutping": "lou5 baan2, ni1 gin6 saam1 gwai3 zo2 di1 wo3, peng4 di1 dak1 m4 dak1 aa3?", "mandarin": "老板，这件衣服贵了点，便宜点行不行？"},
- "tip": "「貴 gwai3」的 gw 是圓唇舌根音，客家話「貴」讀 guai 冇圓唇，粵語要先噘嘴圓唇再發音；「減價 gaam2 gaa3」兩個 aa 都係長元音，讀長啲，唔好讀成客家話短促嘅 a。"}
+{"date":"2026-11-21","sentence":{"cantonese":"阿嬸，今晚返屋企食飯，一齊煲湯好唔好呀？","jyutping":"aa3 sam2, gam1 maan5 faan1 uk1 kei2 sik6 faan6, jat1 cai4 bou1 tong1 hou2 m4 hou2 aa3?","mandarin":"婶婶，今晚回家吃饭，一起煲汤好不好？"},"theme":"家庭·日常","tip":"「阿」aa3、「媽」maa1 里面的 aa 是长元音，要拉长读；客家话的「阿」读短 a，初学容易读成短音，多留意把 aa 拖长半拍。","weekday":"周六","words":[{"cantonese":"阿伯","hakka":"阿伯 a-bak","jyutping":"aa3 baak3","mandarin":"伯父/大伯"},{"cantonese":"阿嬸","hakka":"阿婶 a-sim","jyutping":"aa3 sam2","mandarin":"婶婶"},{"cantonese":"姨媽","hakka":"姨妈 yi-ma","jyutping":"ji4 maa1","mandarin":"姨妈"},{"cantonese":"表哥","hakka":"表哥 piau-go","jyutping":"biu2 go1","mandarin":"表哥"},{"cantonese":"煲湯","hakka":"煲汤 po-tong","jyutping":"bou1 tong1","mandarin":"煲汤"}]}
