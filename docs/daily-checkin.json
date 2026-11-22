@@ -1,10 +1,1 @@
-{"date": "2026-11-22", "weekday": "周日", "theme": "复习 + 趣味",
- "words": [
-  {"cantonese": "再見", "jyutping": "zoi3 gin3", "hakka": "zai-gien", "mandarin": "再见"},
-  {"cantonese": "晏晝", "jyutping": "ngaan3 zau3", "hakka": "ngan-ziu", "mandarin": "下午；午后时段"},
-  {"cantonese": "腸粉", "jyutping": "coeng4 fan2", "hakka": "chong-fun", "mandarin": "肠粉"},
-  {"cantonese": "轉彎", "jyutping": "zyun3 waan1", "hakka": "zhon-van", "mandarin": "转弯"},
-  {"cantonese": "點賣", "jyutping": "dim2 maai6", "hakka": "diem-mai", "mandarin": "怎么卖；多少钱"}
- ],
- "sentence": {"cantonese": "晏晝去食腸粉，轉彎就到，食完再見啦。", "jyutping": "ngaan3 zau3 heoi3 sik6 coeng4 fan2, zyun3 waan1 zau6 dou3, sik6 jyun4 zoi3 gin3 laa1.", "mandarin": "下午去吃肠粉，转个弯就到，吃完再见啦。"},
- "tip": "粤语第二声是升调（调值 35），像普通话第二声一样往上挑；客家话母语者最容易把「點 dim2」「幾 gei2」「早 zou2」读成平调，记得尾音往上扬。"}
+{"date":"2026-11-23","sentence":{"cantonese":"早晨！好耐冇見，你最近點呀？","jyutping":"zou2 san4! hou2 noi6 mou5 gin3, nei5 zeoi3 gan6 dim2 aa3?","mandarin":"早上好！好久不见，你最近怎么样？"},"theme":"问候与礼貌","tip":"粵語第二聲係升調（35 調），要往上挑，好似問嘢噉——「早 zou2」「好 hou2」唔好讀成客家話嘅平調，開口就先練「挑上去」。","weekday":"周一","words":[{"cantonese":"早晨","hakka":"zau sen","jyutping":"zou2 san4","mandarin":"早上好"},{"cantonese":"唔該晒","hakka":"m goi sai","jyutping":"m4 goi1 saai3","mandarin":"非常感谢"},{"cantonese":"好耐冇見","hakka":"hau noi mau gien","jyutping":"hou2 noi6 mou5 gin3","mandarin":"好久不见"},{"cantonese":"食咗飯未","hakka":"sit zo fan mui","jyutping":"sik6 zo2 faan6 mei6","mandarin":"吃饭了吗（打招呼）"},{"cantonese":"唔好客氣","hakka":"m hau hak hi","jyutping":"m4 hou2 haak3 hei3","mandarin":"不客气"}]}
