@@ -1,1 +1,8 @@
-{"date":"2026-11-25","sentence":{"cantonese":"唔該，我要一碟燒鵝飯，再加一杯菊花茶。","jyutping":"m4 goi1, ngo5 jiu3 jat1 dip6 siu1 ngo4 faan6, zoi3 gaa1 jat1 bui1 guk1 faa1 caa4.","mandarin":"你好，我要一份烧鹅饭，再加一杯菊花茶。"},"theme":"食物·饮品","tip":"「粉 fan2」同「飯 faan6」只差元音長短：fan 係短 a，一掠而過；faan 係長 aa，要拖長少少。客家話冇呢個長短對立，好容易讀成同一個音——練嗰陣刻意將「飯」拖長半拍。","weekday":"周三","words":[{"cantonese":"燒鵝","hakka":"sau ngo","jyutping":"siu1 ngo4","mandarin":"烧鹅"},{"cantonese":"河粉","hakka":"ho fun","jyutping":"ho4 fan2","mandarin":"河粉"},{"cantonese":"餃子","hakka":"gau zi","jyutping":"gaau2 zi2","mandarin":"饺子"},{"cantonese":"菜心","hakka":"coi sim","jyutping":"coi3 sam1","mandarin":"菜心"},{"cantonese":"菊花茶","hakka":"giug fa ca","jyutping":"guk1 faa1 caa4","mandarin":"菊花茶"}]}
+{"date": "2026-11-26", "weekday": "周四", "theme": "出行·方向",
+ "words": [{"cantonese": "直行", "jyutping": "zik6 hang4", "hakka": "chit hang", "mandarin": "一直走"},
+ {"cantonese": "十字路口", "jyutping": "sap6 zi6 lou6 hau2", "hakka": "sap sii lu hau", "mandarin": "十字路口"},
+ {"cantonese": "轉車", "jyutping": "zyun2 ce1", "hakka": "zon ca", "mandarin": "换乘"},
+ {"cantonese": "問路", "jyutping": "man6 lou6", "hakka": "mun lu", "mandarin": "问路"},
+ {"cantonese": "行人路", "jyutping": "haang4 jan4 lou6", "hakka": "hang ngin lu", "mandarin": "人行道"}],
+ "sentence": {"cantonese": "唔該，十字路口直行，轉左就係地鐵站。", "jyutping": "m4 goi1, sap6 zi6 lou6 hau2 zik6 hang4, zyun3 zo2 zau6 hai6 dei6 tit3 zaam6.", "mandarin": "请问，十字路口一直走，左转就是地铁站。"},
+ "tip": "「轉左」的「轉」读 zyun3（身体/车辆物理转向）；客家话「轉」只有一个读音，容易顺口读成 zyun2——记住：转向动作是 zyun3，只有换车、转移、换状态才读 zyun2（如轉車 zyun2 ce1）。"}
