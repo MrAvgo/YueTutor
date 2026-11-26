@@ -1,8 +1,1 @@
-{"date": "2026-11-26", "weekday": "周四", "theme": "出行·方向",
- "words": [{"cantonese": "直行", "jyutping": "zik6 hang4", "hakka": "chit hang", "mandarin": "一直走"},
- {"cantonese": "十字路口", "jyutping": "sap6 zi6 lou6 hau2", "hakka": "sap sii lu hau", "mandarin": "十字路口"},
- {"cantonese": "轉車", "jyutping": "zyun2 ce1", "hakka": "zon ca", "mandarin": "换乘"},
- {"cantonese": "問路", "jyutping": "man6 lou6", "hakka": "mun lu", "mandarin": "问路"},
- {"cantonese": "行人路", "jyutping": "haang4 jan4 lou6", "hakka": "hang ngin lu", "mandarin": "人行道"}],
- "sentence": {"cantonese": "唔該，十字路口直行，轉左就係地鐵站。", "jyutping": "m4 goi1, sap6 zi6 lou6 hau2 zik6 hang4, zyun3 zo2 zau6 hai6 dei6 tit3 zaam6.", "mandarin": "请问，十字路口一直走，左转就是地铁站。"},
- "tip": "「轉左」的「轉」读 zyun3（身体/车辆物理转向）；客家话「轉」只有一个读音，容易顺口读成 zyun2——记住：转向动作是 zyun3，只有换车、转移、换状态才读 zyun2（如轉車 zyun2 ce1）。"}
+{"date":"2026-11-27","sentence":{"cantonese":"老闆，平啲啦，呢件衫我真係好鍾意。","jyutping":"lou5 baan2, peng4 di1 laa1, ni1 gin6 saam1 ngo5 zan1 hai6 hou2 zung1 ji3.","mandarin":"老板，便宜一点吧，这件衣服我真的很喜欢。"},"theme":"购物·砍价","tip":"「貴 gwai3」里嘅 gw 係圓唇舌根音：先撮圓嘴唇再發 g 音，客家話冇 gw 呢個聲母，好容易讀成 guai；砍價成日講「貴」，練好 gw 好關鍵。","weekday":"周五","words":[{"cantonese":"平啲","hakka":"平啲 piang2 di1","jyutping":"peng4 di1","mandarin":"便宜一点"},{"cantonese":"貴","hakka":"貴 gui3","jyutping":"gwai3","mandarin":"贵"},{"cantonese":"試吓","hakka":"試下 sṳ3 ha3","jyutping":"si3 haa5","mandarin":"试一下"},{"cantonese":"俾錢","hakka":"畀錢 bi3 qien2","jyutping":"bei2 cin4","mandarin":"付钱"},{"cantonese":"信用卡","hakka":"信用卡 xin3 yung4 ka1","jyutping":"seon3 jung6 kaat1","mandarin":"信用卡"}]}
